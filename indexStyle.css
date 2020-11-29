@@ -3,6 +3,7 @@ body
   margin:0px;
 font-family: Cormorant Upright;
 overflow-x: hidden
+    opacity: .9;
 }
 #heading
 {
@@ -37,7 +38,7 @@ overflow-x: hidden
   position: relative;
  background-position: center;
   background-repeat: no-repeat;
-  opacity: .95;
+  
   background-color:#786f6f;
   background-size: cover;
   min-height: 100%;
