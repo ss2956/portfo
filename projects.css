@@ -1,0 +1,87 @@
+
+body
+{
+
+}
+.projectBox
+{
+  display: flex;
+  flex-direction: column;
+border: solid 1px rgba(0, 0, 51, .4);
+margin: 30px 10px;
+padding: 0px 10px;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.8);
+flex-wrap: wrap;
+width:60vw;
+color:#000033;
+
+}
+.media
+{
+  margin:20px;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+}
+.mediaRow {
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+.triangle-left {
+
+
+	width: 0;
+	height: 0;
+	border-top: 12vw solid transparent;
+	border-right: 24vw solid rgba(255, 227, 217, .85);
+	border-bottom: 12vw solid transparent;
+  padding-right: 40px;
+}
+.projNav
+{
+  position: -webkit-sticky;
+  position: sticky;
+
+top: 40vh;
+}
+.placeHolder
+{
+  opacity: 0;
+}
+.project
+{
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-around;
+  flex-wrap: nowrap;
+  padding:200px 10px;
+
+}
+#projCount
+{
+  margin:-15px 80px;
+  text-align: center;
+    font-family: Rouge;
+color:#000033;
+font-size: 2.2vw;
+  letter-spacing: .35em;
+overflow: hidden;
+white-space: nowrap;
+
+
+}
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 20vw;}
+}
+@media screen and (max-width: 800px) {
+  #projCount{
+  font-size: 2vw;
+  margin:-5px 50px;
+  }
+}

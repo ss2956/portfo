@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="indexStyle.css">
+
+<!-- <script src="animations.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body onload="">
+
+  <div  class = "" id = "heading"  >
+      <nav id = "leftHeading" class = "fader show-on-scroll"  >
+        <ul>
+          <li style="padding-left:10px;" >
+          Programmer.
+        </li>
+        <li >
+            Project Manager.
+        </li>
+        <li>
+        Creator.
+        </li>
+        </ul>
+        </nav>
+
+    <nav  id = "rightHeading" class = "fader show-on-scroll">
+      <ul>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+        <li class = "navOption" onclick = "goTo('#idTitle');">
+          Home
+        </li>
+        <li class = "navOption" onclick = "goTo('#bioBackground');">
+          Bio
+        </li>
+        <a class = "navOption" href = "projects.html">
+        Projects
+      </a>
+      <a class = "navOption" target = "_blank" href="https://docs.google.com/document/d/11vbQMzlBMxW8gMmQSulHnV9UBVi2laujfQ-TzYJiTjk/edit?usp=sharing">
+        Resume
+      </a>
+      <a class = "navOption" target = "_blank" href = "https://mail.google.com/mail/u/0/#inbox?compose=VpCqJKjWJKcmMxRVZDxbCRGVgdpqKhgcwpFMtgNGLNwBQWfWBvpwZwknZnWTwCHRvmnQqGq">
+        ss2956@cornell.edu
+      </a>
+      </ul>
+      </nav>
+
+  </div>
+  <div id="mySidebar" class="sidebar">
+    <a class = "navOption" onclick = "goTo('#idTitle');">
+      Home
+    </a>
+    <a class = "navOption" onclick = "goTo('#bioBackground');">
+      Bio
+    </a>
+    <a class = "navOption" href = "projects.html">
+    Projects
+  </a>
+  <a class = "navOption" target = "_blank" href="https://docs.google.com/document/d/11vbQMzlBMxW8gMmQSulHnV9UBVi2laujfQ-TzYJiTjk/edit?usp=sharing">
+    Resume
+  </a>
+  <a class = "navOption" target = "_blank" href = "https://mail.google.com/mail/u/0/#inbox?compose=VpCqJKjWJKcmMxRVZDxbCRGVgdpqKhgcwpFMtgNGLNwBQWfWBvpwZwknZnWTwCHRvmnQqGq">
+    ss2956@cornell.edu
+  </a>
+  </div>
+
+  <div  class = "titleBox"  >
+
+<div class = "title fader show-on-scroll" id = "idTitle"  style ="position: fixed;
+top: 25vh;
+left: 0;
+right: 0;z-index:0;"> Sheba Sow</div>
+
+<div style = "text-align:center; position: fixed;
+top: 75vh;
+left: 0;
+right: 0;z-index:0;"><img style =" " width="100" height="75" src= "images/arrow.gif"/></div>
+</div>
+<div class = "divider" >
+  <p  style=" margin:0px;"> Welcome</p>
+</div>
+<div id = "bioBackground" >
+
+
+<div id = "bioBackgroundTwo" >
+
+<div id ="bioTwo"class = "profileCollage fader show-on-scroll" style = "margin-bottom:200px;">
+  <div class = "bioBox  " >
+    <div style="text-align:center;  ">
+    <img id = "helloWave" src = "images/hi3.gif" /></div>
+  <div style="text-align:center;"><h2>  Hello There! My name is Sheba!</h2></div>
+  </div>
+<div class = "bioBox ">
+
+<div style="text-align:center;"><h2>I am an undergraduate student at Cornell University studying Computer Science</h2></div>
+</div>
+<div class = "bioBox ">
+
+<div style="text-align:center;"><h2>  I've been programming since 2016</h2></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div style = "">
+<div class = "profileCollage fader show-on-scroll "  style = " flex-wrap:nowrap; margin-bottom:7vh;justify-content:center; height:12vh; width:100%;">
+
+<div class = "bioBox interest " style = "  height:4.2vh;
+width:30%; " >
+<div style="text-align:center; "><h2>Interest & Skills</h2></div>
+</div>
+</div>
+<div class = "profileCollage fader show-on-scroll  "  style = "  flex-wrap:nowrap; margin-bottom:7vh; justify-content:center; height:12vh; width:100%;">
+
+<div class = "bioBox interest " style = "" >
+
+<div style="text-align:center;"><h2>UX Design</h2></div>
+</div>
+<div class = "bioBox interest " style = "" >
+
+<div style="text-align:center;"><h2>Data Science (SQL&Python)</h2></div>
+</div>
+</div>
+<div class = "profileCollage fader show-on-scroll "  style = " flex-wrap:nowrap;  justify-content:center; ">
+
+<div class = "bioBox interest " style = "" >
+
+
+<div style="text-align:center;"><h2>Project Management</h2></div>
+</div>
+<div class = "bioBox interest " style = "">
+
+<div style="text-align:center;"><h2>HTML/CSS/ JS/Jquery</h2></div>
+</div>
+<div class = "bioBox interest " style = "">
+
+<div style="text-align:center;"><h2>Java</h2></div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id ="bioOne"class = "profileCollage fader show-on-scroll " style="margin-top:200px;">
+  <div class = "bioBox" >
+
+  <div style="text-align:center;"><h2> I am an aspiring software engineer hoping to use computer science as a tool for many solutions related to the medical industry, business, and commercial products.</h2></div>
+  </div>
+<div class = "bioBox" >
+
+<div style="text-align:center;"><h2>On the side, I attend hackathons, listen/create music, and enjoy new foods.</h2></div>
+</div>
+<div onclick="location.href = 'projects.html';" id= "toProj" class = "bioBox "  >
+
+<div style="text-align:center;"><h2>  Now, go check out my recent projects!</h2></div>
+</a>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<script>
+
+
+function goTo(elementId)
+{
+  $('html, body').animate({
+  scrollTop: $(elementId).position().top - ($(window).height()*(1/8))
+}, 1400);
+
+
+}
+</script>
+<script>
+
+function openNav() {
+
+  if(document.getElementById("mySidebar").style.width == "250px")
+  {
+  document.getElementById("mySidebar").style.width = "0";
+  }
+  else{
+    document.getElementById("mySidebar").style.width = "250px";
+  }
+
+}
+
+
+</script>
+  <script src="show-on-scroll.js"></script>
+
+</body>
+</html>
