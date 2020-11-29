@@ -323,8 +323,8 @@ min-width: 100px;
   font-family: lemon; src:url(fonts/Lemonada-VariableFont_wght.ttf);
 }
 @media only screen and (max-width: 1200px) {
-  .divider { top:70px; font-size:3.5vw;}
-  li, a{font-size:2vw;}
+  .divider { top:70px; font-size:5vw;}
+  li, a{font-size:4vw;}
 }
 @media screen and (max-width: 1000px) {
   .sidebar {padding-top: 15px;}
