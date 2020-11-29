@@ -37,7 +37,7 @@ overflow-x: hidden
   position: relative;
  background-position: center;
   background-repeat: no-repeat;
-  opacity: .9;
+  opacity: .95;
   background-color:#786f6f;
   background-size: cover;
   min-height: 100%;
@@ -117,7 +117,7 @@ text-align: center;
 
 .fader.is-visible
 {
-opacity:1;
+opacity:.9;
 
 }
 .divider p
@@ -192,7 +192,7 @@ background-color: white;
 {
   width:100px;
 text-align: center;
-  opacity:.9;
+  opacity:.8;
 }
 
 .interest
