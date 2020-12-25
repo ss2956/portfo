@@ -64,7 +64,7 @@ li, a
   white-space: nowrap;
 
 }
-.navOption:hover
+.navOption:hover, .arrow
 {
   cursor:pointer;
   color:#1d277c;
